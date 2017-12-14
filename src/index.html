@@ -3,22 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <title>My Note</title>
-  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="app.css">
 </head>
 <body>
 <div class="header">
   <h1>My Note</h1>
   <div class="menu">
+
+    <!--
+      상단 메뉴(.menu) 버튼 구성
+      새노트: textarea(#memo)내용이 모두 지워짐
+      노트저장: localStorage에 textarea내용 저장 - 사용자의 컴퓨터
+      노트다운로드: 내용 다운로드 구현 https://github.com/eligrey/FileSaver.js
+      about: 클릭하면 레이어(div)로 center에 어플리케이션정보 나오도록 처리
+      전체화면: 버튼 추가하고 누르면 전체화면 모드로 전환
+      직접 기능구현 및 라이브러리 검색 http://begin.js.org/html5/quiz.html
+    -->
+
     <button class="btn-newnote">새노트</button>
     <button class="btn-savenote">노트저장</button>
+    <!--
+      about
+      about: 클릭하면 레이어(div)로 center에 어플리케이션정보 나오도록 처리
+    -->
     <button class="btn-about">about</button>
+    <!--
+      노트 다운로드 버튼 구현
+      노트다운로드: 내용 다운로드 구현 https://github.com/eligrey/FileSaver.js
+    -->
+
+    <!--
+      전체화면: 버튼 추가하고 누르면 전체화면 모드로 전환
+      직접 기능구현 및 라이브러리 검색 http://begin.js.org/html5/quiz.html
+    -->
   </div>
 </div>
 
 <div class="container">
+  <!--
+      노트저장: localStorage에 textarea내용 저장 - 사용자의 컴퓨터
+      최초 진입시 localStorage에 저장된 내용이 있으면 textarea에 표시
+   -->
   <textarea id="memo" placeholder="내용을 입력하세요"></textarea>
 </div>
 
-<script src="js/app.js"></script>
+<script src="app.js"></script>
 </body>
 </html>

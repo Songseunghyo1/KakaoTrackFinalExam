@@ -1,0 +1,30 @@
+{
+  "name": "note_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advanced-webapps-class/note-test.git"
+  },
+  "keywords": [
+    "note_app"
+  ],
+  "author": "songseunghyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/advanced-webapps-class/note-test/issues"
+  },
+  "homepage": "https://github.com/advanced-webapps-class/note-test#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11"
+  }
+}
