@@ -19,6 +19,17 @@ h1 {
     max-width: 600px;
     margin: 20px auto;
 }
+
+.title {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.list {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
 #memo {
     width: 100%;
     height: 200px;

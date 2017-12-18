@@ -6,7 +6,7 @@ var cleanCSS = require('gulp-clean-css');
 var connect = require('gulp-connect');
 
 //js 프로젝트 소스파일
-var jsfiles = ['src/js/*.js'];
+var jsfiles = ['node_modules/file-saver/FileSaver.js','src/js/*.js'];
 
 gulp.task('concat:js', function() {
     return gulp.src(jsfiles)
